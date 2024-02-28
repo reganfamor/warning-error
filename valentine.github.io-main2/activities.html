@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>What are we doing after?</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activities/aquarium.jpeg" alt ="Cebu Tops Lookout">
+			<label><input type="checkbox" name="activities" value ="Cebu Tops Lookout">Cebu Tops Lookout</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/arcade.jpeg" alt ="arcade">
+			<label><input type="checkbox" name="activities" value ="arcade">arcade</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/cinema.jpeg" alt ="cinema">
+			<label><input type="checkbox" name="activities" value ="cinema">cinema</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/keramika.jpeg" alt ="SOGO Hotel">
+			<label><input type="checkbox" name="activities" value ="SOGO Hotel">SOGO Hotel</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/kunsthalle.jpeg" alt ="Busay City Lights">
+			<label><input type="checkbox" name="activities" value ="Busay City Lights">Busay City Lights</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/park.jpeg" alt ="IT Park">
+			<label><input type="checkbox" name="activities" value ="IT Park">IT Park</label>
+		</div>
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Last page</button>
+</body>
+</html>
